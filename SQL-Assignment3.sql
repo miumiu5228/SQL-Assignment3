@@ -77,11 +77,11 @@ ORDER BY 2 DESC
 
 
 
-/*
+
 SELECT O.ShipCity, COUNT(OD.ProductID) FROM dbo.Orders O 
 JOIN dbo.[Order Details] OD ON O.OrderID = OD.OrderID
 GROUP BY O.ShipCity
-*/
+
 
 
 SELECT E.City FROM dbo.Employees E
